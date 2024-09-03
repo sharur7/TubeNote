@@ -15,13 +15,7 @@ the entire video and provide the important summary in points within 250 words.
 Please provide the summary of the text given here:  """
 
 
-# Add custom CSS to hide the GitHub icon
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 
 ## getting the transcript data from yt videos
 def extract_transcript_details(youtube_video_url):
